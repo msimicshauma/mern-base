@@ -142,7 +142,7 @@ form {
   flex-direction: column;
   margin-top: 15px;
   color: #5c616c;
-  width: 450px;
+  width: 400px;
 }
 
 button {
@@ -188,6 +188,10 @@ input:focus {
 .form-container .error-text {
   color: #d64541;
   font-size: 13px;
+}
+
+h4 {
+  color: #5c616c;
 }
 
 @media only screen and (max-width: 640px) {
