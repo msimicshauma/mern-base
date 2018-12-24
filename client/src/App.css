@@ -1,0 +1,236 @@
+* {
+  font-family: "Noto Sans SC", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  color: #d64541;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d64541;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.App nav {
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #d64541;
+  box-shadow: 0px 0px 3px 3px #eee;
+  width: 100%;
+}
+
+.App nav a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.App nav i {
+  color: #d64541;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.App .landing-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .landing-page-wrapper h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.App .landing-page-wrapper p {
+  margin: 0;
+}
+
+.App .landing-page-wrapper .buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.App .landing-page-wrapper .buttons-wrapper .button {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  font-weight: bold;
+  background-color: #d64541;
+  color: #fff;
+}
+
+.App .landing-page-wrapper .buttons-wrapper .button:hover {
+  background-color: #fff;
+  color: #d64541;
+  border: 1px solid #d64541;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  box-shadow: 0px 0px 2px 2px #888;
+  transform: translateY(3px);
+}
+
+.App .landing-page-wrapper .buttons-wrapper .button:active {
+  transition-duration: 0.01s;
+  transition-timing-function: linear;
+  box-shadow: 0px 0px 1px 1px;
+  transform: translateY(4px);
+}
+
+footer {
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 5px #eee;
+  width: 100%;
+}
+
+.form-container {
+  box-shadow: 1px 1px 5px 5px #eee;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+.form-container a {
+  font-size: 23px;
+  outline: none;
+}
+
+.material-icons.left {
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.material-icons.left:active {
+  color: #fff;
+  background-color: #d64541;
+  padding: 3px;
+  border-radius: 50%;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  background-color: #d64541;
+  color: #fff;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #d64541;
+  border: 1px solid #d64541;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  box-shadow: 0px 0px 2px 2px #888;
+  transform: translateY(3px);
+}
+
+button:active {
+  transition-duration: 0.01s;
+  transition-timing-function: linear;
+  box-shadow: 0px 0px 1px 1px;
+  transform: translateY(4px);
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid #888;
+}
+
+input:focus {
+  border-bottom: 1px solid #d64541;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.form-container .error-text {
+  color: #d64541;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 640px) {
+  .App nav a {
+    font-size: 20px;
+  }
+
+  .App nav i {
+    font-size: 15px;
+  }
+
+  .App .landing-page-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .App .landing-page-wrapper p {
+    font-size: 15px;
+  }
+
+  .App .landing-page-wrapper .buttons-wrapper .button {
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  .form-container a {
+    font-size: 18px;
+  }
+
+  .material-icons.left {
+    font-size: 15px;
+  }
+
+  form {
+    width: 230px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  button {
+    width: 70px;
+    height: 35px;
+  }
+}
