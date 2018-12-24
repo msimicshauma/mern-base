@@ -54,10 +54,12 @@ a:visited {
 .App .landing-page-wrapper h1 {
   margin: 0;
   text-align: center;
+  color: #5c616c;
 }
 
 .App .landing-page-wrapper p {
   margin: 0;
+  color: #5c616c;
 }
 
 .App .landing-page-wrapper .buttons-wrapper {
@@ -139,6 +141,8 @@ form {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
+  color: #5c616c;
+  width: 450px;
 }
 
 button {
